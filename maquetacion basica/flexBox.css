@@ -1,0 +1,98 @@
+.container{
+    border: 4px solid grey;
+    border-radius: 6px;
+    width: 450px;
+    height:100vh;
+}
+.header{
+    height: 13%;
+    border: 3px solid green;
+    border-radius: 3px;
+}
+.nav_padre{
+    height: 8%;
+    border: 3px solid pink;
+    border-radius: 3px;
+}
+.divHijo{
+    height: 67%;
+    border: 3px solid transparent;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+}
+.footer{
+    height: 8%;
+    border: 3px solid yellow;
+    border-radius: 3px;
+}
+.article{
+    height: 98%;
+    border: 3px solid blue;
+    border-radius: 3px;
+    width: 65%;
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-between;
+    
+}
+.divHijo2{
+    height: 98%;
+    border: 3px solid rgb(231, 156, 15);
+    width: 35%;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-evenly;      
+}
+.article div p{
+    height: 15%;
+    margin:8px 3px;
+}
+
+.headerHijo{
+    
+    height: 60%;
+    border: 3px solid green;
+    width: 97%;
+    border-radius: 3px;
+}
+.divVarios{
+
+    border: 3px solid transparent;
+    height: 40%;
+    width: 100%;
+    
+    
+}
+
+.section1{
+    height: 35%;
+    border: 3px solid violet;
+    width: 96%;
+    border-radius: 3px;
+}
+.section2{
+    height: 35%;
+    border: 3px solid violet;
+    width: 96%;
+    border-radius: 3px;
+}
+.footerHijo{
+    height: 20%;
+    border: 3px solid yellow;
+    width: 96%;
+    border-radius: 3px;
+}
+.aside1{
+    height: 45%;
+    border: 3px solid rgb(135, 231, 255);
+    width: 95%;
+    border-radius: 3px;
+}
+.aside2{
+    height: 45%;
+    border: 3px solid rgb(135, 231, 255);
+    width: 95%;
+    border-radius: 3px;
+}
