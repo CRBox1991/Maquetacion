@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navegador{
+    border: 3px solid transparent;
+    background-color: black;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.home{
+    color: white;  
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.galeria{
+    color: white;  
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.blog{
+    color: white;  
+    text-decoration: none;
+    font-size: 20px;
+}
+.principal{
+    
+    height: 93vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+.miTexto{
+    
+    height: 100%;
+    width: 60%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    gap:10px;
+}
+
+.h1{
+    
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif ;
+    width: 100%;
+    height: 15%;
+}
+.imagen{
+    
+    height: 100%;
+    width: 30%;  
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    
+}
+.imagenHijo{
+    border: 3px solid transparent;
+    height: 85%;
+    width: 90%;
+    
+}
+p{
+    
+    color: black;
+    font-size: initial;
+    width: 100%;
+
+}

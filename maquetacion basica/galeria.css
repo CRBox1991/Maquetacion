@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navegador{
+    
+    background-color: black;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home{
+    color: white;  
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.galeria{
+    color: white;  
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.blog{
+    color: white;  
+    text-decoration: none;
+    font-size: 20px;
+}
+.imagenes{
+    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction:row;   
+    flex-wrap: wrap;
+    align-content: center;        
+}
+
+.imagenes img{
+    height: 50vh;
+    width: 33.3333333333333%;
+}
