@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.links{
+    background-color: #040404;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 60px;    
+    width: 100%;
+    position: fixed;
+    
+}
+.links a{    
+    text-decoration:none;
+    color: white;
+    background-color: #040404;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.imgCode{    
+    width: 100%;
+    height: 100%;
+}
+
+.vacio{
+    height: 60px;    
+    width: 100%;
+}
+
+.general{
+    border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 2000px;
+    width: 100%;
+}
+
+.titulo{
+    border: 3px solid yellow;    
+    height: 80px;
+    width: 85%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    background-color: #040404;
+    color: white;
+    display: flex;
+    flex-direction: column;    
+    flex-wrap: wrap;
+    justify-content: center;    
+    align-items: center;
+}
+
+.box1{
+    border: 3px solid yellow;
+    display:flex;
+    flex-direction: row; 
+    justify-content: center;   
+    flex-wrap: wrap;
+    align-content: center;
+    gap:20px;
+    height: 800px;
+    width: 100%;
+}
+.cabecera{
+    border: 3px solid green;    
+    height: 80px;
+    width: 85%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    background-color: #040404;
+    color: white;
+    display: flex;
+    flex-direction: column;    
+    flex-wrap: wrap;
+    justify-content: center;    
+    align-items: center;
+}
+.infoProfes{
+    border: 2px solid black;
+    width: 30%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;    
+    flex-wrap: wrap;
+    justify-content: center;    
+    align-items: center;
+}
+.img{
+    height: 100%;
+    
+}
+
+.footer{
+    
+    background-color: #040404;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 60px;    
+    width: 100%;    
+}
+
+.footer a{
+    text-decoration:none;
+    color: white;
+    background-color: #040404;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.insta{
+    width: 45px;
+    height: 45px;
+}
+.whats{
+    width: 45px;
+    height: 45px;
+}
+
+.face{
+    width: 45px;
+    height: 45px;
+}
