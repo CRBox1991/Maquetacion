@@ -18,17 +18,16 @@ function info(){
         personas :personas,
         fecha : fecha,
     }
+}
     myArrInfo.push(compilation)
     //console.log(myArrInfo);
 
     let infor = document.getElementById('compilation')
 
-    for(let i = 0; i < compilation.length; i++){
+function filter()
+{
+    for(let i = 0; i < myArrInfo.length; i++){
         
-    infor.innerHTML[i] += `<p>${compilation[i].nombre}</p>
-                        <p>${compilation[i].origen}</p>
-                        <p>${compilation[i].destino}</p>
-                        <p>${compilation[i].personas}</p>
-                        <p>${compilation[i].fecha}</p>` 
+    infor.innerHTML[i] += `<p>${myArrInfo[i]}</p>` 
     }                       
 }
