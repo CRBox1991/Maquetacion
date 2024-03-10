@@ -147,6 +147,11 @@
     height: 60px;    
     width: 100%;    
 }
+.img1{
+    
+    width: 30%;
+    background-color: blue;
+}
 
 .footer a{
     text-decoration:none;

@@ -30,13 +30,14 @@
     height: 100%;
 }
 .vacio{
-    height: 60px;    
+    height: 80px;    
     width: 100%;
 }
 .ppal{
     
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;   
+    justify-content: center; 
     align-items: center;
     width: 100vw;
     height: 600px;
@@ -49,29 +50,34 @@
     
     display: flex;
     flex-direction: column;
-    justify-content:center ;
-    width: 35%;
+    justify-content:center;
+    width: 55%;
     height: 700px;
          
 }
 .div1 p{
-    
+    height: 30%;
     width: 40%;
 }
 .divH1{
     
-    height: 6%;
+    height: 16%;
     text-align: left;
 }
 .Code{
     color: #ffffff;
-    font-size: 29.5216px ;
+    font-size: 40px ;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .c2{
     color: #11f294;
     font-size: 29.5216px ;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img1{
+    
+    width: 30%;
+    background-color: blue;
 }
 .div2{
     

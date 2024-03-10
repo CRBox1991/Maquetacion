@@ -3,11 +3,6 @@
     margin: 0;
     padding: 0;
 }
-.img1{
-    
-    width: 30%;
-    background-color: blue;
-}
 
 .links{
     background-color: #040404;
@@ -17,7 +12,6 @@
     height: 80px;    
     width: 100%;
     position: fixed;
-    
 }
 .links a{    
     text-decoration:none;
@@ -30,14 +24,10 @@
     align-items: center;
     font-size: 25px;
 }
+
 .imgCode{    
     width: 100%;
     height: 100%;
-}
-.general{
-    display: flex;
-    flex-direction: column;    
-    width: 100%;
 }
 .vacio{
     height: 60px;    
@@ -46,64 +36,69 @@
 .ppal{
     
     display: flex;
-    flex-direction: column;   
-    justify-content: space-around; 
-    
-    height: 100vh;
-    width: 100%;
+    flex-direction: column;    
+    align-items: center;
+    width: 100vw;
+    height: 600px;
     background-image: url("https://www.codenotch.com/wp-content/uploads/2021/09/Web-portada-3.png");
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     background-size: cover;
 }
 
-.contacto{
-       
-    height: 200px;
-    width: 100%;
+.div1 {
+    
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    
+    justify-content:center ;
+    width: 35%;
+    height: 700px;
+         
 }
-.contacto p{
+.div1 p{
+    
+    width: 40%;
+}
+.divH1{
+    
+    height: 6%;
+    text-align: left;
+}
+.Code{
+    color: #ffffff;
+    font-size: 29.5216px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.c2{
+    color: #11f294;
+    font-size: 29.5216px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div2{
+    
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.more{
     
     color: #ffffff;
-    width: 800px;
-    height: 70px;    
-    font-size: 35px ;
+    font-size: 59.5216px ;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 50px;
 }
-.input{
+.become{
+    color: #11f294;
+    font-size: 59.5216px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div3{
     
-    width: 800px;
-    height: 300px;
+    height: 20%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
 }
-.input input{
-    
-    width: 400px;
-    height: 40px;  
-    font-size: 25px;  
-    margin-left: 50px;
-}
-.input label{
-    
-    width: 400px;
-    height: 40px;  
-    font-size: 25px;  
-    margin-left: 50px;
-}
-.input BUTTON{
-    
-    width: 400px;
-    height: 40px;  
-    font-size: 25px;  
-    margin-left: 50px;
-    cursor: pointer;
-}
+
+
 .footer{
     
     background-color: #040404;
