@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="agencia.css">
+</head>
+<body>
+<div class="ppal">
+    <div class="cabecera">
+        <img src="avion.jpeg" alt="">
+        <h1>ALCOHOL VIAJES</h1>
+    </div>
+    <div class="viajes">
+        <div class="cartas">
+            <H3>MALLORCA</H3>
+            <p>6 DIAS Y 5 NOCHES</p>
+            <p>Hotel media pension y vuelo por tan solo 499 euros por persona</p>
+        </div>
+        <div class="cartas">
+            <H3>ALICANTE</H3>
+            <p>4 DIAS Y 3 NOCHES</p>
+            <p>Hotel media pension y vuelo por tan solo 289 euros por persona</p>
+        </div>
+        <div class="cartas">
+            <H3>GALICIA</H3>
+            <p>5 DIAS Y 4 NOCHES</p>
+            <p>Hotel media pension y vuelo por tan solo 425 euros por persona</p>
+        </div>
+        <div class="cartas" >
+            <H3>MALAGA</H3>
+            <p>4 DIAS Y 3 NOCHES</p>
+            <p>Hotel media pension y vuelo por tan solo 310 euros por persona</p>
+        </div>
+        <div class="cartas">
+            <H3>CANARIAS</H3>
+
+            <p>9 DIAS Y 8 NOCHES</p>
+            <p>Hotel media pension y vuelo por tan solo 735 euros por persona</p>
+        </div>
+    </div>
+    <div class="h3"><h2>PARA MÁS INFORMACIÓN RELLENA EL FORMULARIO</h2></div>
+    <div class="formulario">
+        <div class="box-formulario">
+        <form action="">
+            <input id="nombre" type="text" placeholder="Nombre">
+            <input id="origen" type="text" placeholder="Origen">
+            <input id="destino" type="text" placeholder="Destino">
+            <input id="personas" type="text" placeholder="Numero de Personas">
+            <input id="fecha" type="text" placeholder="Fecha">
+            <button type="button" onclick="info()">Informacion</button>
+            <button type="button" onclick="filter()">Filtrado</button>
+        </form>
+        </div>
+    </div>
+    <div>
+    <div id ="compilation" class="filtrado">
+    </div>
+    </div>
+    
+</div>
+
+
+
+    
+<script src="agencia.js"></script>
+</body>
+</html>

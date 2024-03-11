@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.ppal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;     
+    
+}
+
+.cabecera{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.cabecera h1{
+    font-size: 90px;
+    font-family:"Madimi One", sans-serif;
+    width: 100%;
+    text-align: center;
+
+}
+.formulario{
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+.box-formulario{
+        border: 10px solid orangered;
+        background-color: orange;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        min-height: 100%;
+        width: 100%;
+}
+.box-formulario form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px
+
+}
+.viajes{
+    border: 2px solid black;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px;
+    background-image: url(canarias.jpeg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.cartas{
+    border: 8px solid yellow;
+    border-radius: 50px;
+    width: 30%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px
+}
+.cartas h3{
+    font-family:"Madimi One", sans-serif;
+    width:80%;
+    text-align: center;
+    font-size: 50px;
+}
+.cartas p{
+    font-family:"Madimi One", sans-serif;
+    width:80%;
+    text-align: center;
+    font-size: 30px;
+    color:black;
+}
+.h3{
+    font-family:"Madimi One", sans-serif;
+    font-size: 40px;
+}
+.box-formulario input{
+    width: 19%;
+    height: 40px;
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+}
+.box-formulario button{
+    cursor: pointer;
+    height: 60px;
+    width: 80px;
+    font-family: "Madimi One", sans-serif;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.box-formulario button:hover{
+    background-color: red;
+}
+.filtrado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(255, 148, 148);
+}
