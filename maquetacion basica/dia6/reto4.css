@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    
+    height: 100vh;
+    width: 100vw;   
+}
+.caja{
+    display: grid;
+    grid-template-areas: 
+    "header header imagen"
+    "cuerpo cuerpo2 cuerpo2"
+    "footer footer footer"   ;
+}
+.header{   
+    background-color: rgb(199, 39, 39);
+    color:white;
+    font-size: 15px;
+    text-align: center;
+    height: 70px;
+    padding: 20px;
+    grid-area: header;
+}
+.imagen{
+    background-color: rgb(134, 25, 25);
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    height: 70px;
+    padding: 15px;
+    grid-area: imagen;
+}
+.cuerpo{
+    height: 500px;
+    background-color: rgb(241, 103, 53);
+    text-align: center;
+    color: white;
+    padding: 15px;
+    grid-area: cuerpo;
+    display:grid;
+    grid-template-areas: "aside"
+                        "blanc"
+                        "aside2";
+}
+.aside{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    grid-area: aside;
+    height: 155px;
+}
+.blanc{
+    height: 155px;
+    grid-area: blanc;
+}
+.aside2{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    grid-area: aside2;
+    height: 155px;  
+}
+.content{
+    background-color: rgb(248, 74, 31);
+    text-align: center;
+    color: white;
+    grid-area: cuerpo2;
+    display: grid;
+    grid-template-areas: "contenido"
+                        "texto";
+}
+.contenido{
+    border: 2px solid white;
+    padding: 15px;
+    margin:15px;
+    grid-area: contenido;
+}
+.text{
+    grid-area: texto;
+    border: 2px solid white;
+    padding: 15px;
+    margin:15px;
+}
+.footer{
+    background-color: rgb(134, 25, 25);
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    height: 70px;
+    padding: 15px;
+    grid-area: footer;
+}

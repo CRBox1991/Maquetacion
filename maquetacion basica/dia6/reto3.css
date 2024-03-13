@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 60vw;
+    height: 80vh;
+}
+.caja{
+    display: grid;
+    grid-template-columns: [x0]1fr[x1]1fr[x2]1fr[x3]1fr[x4];
+    grid-template-rows: [y0].5fr[y1]1fr[y2]1fr[y3]1fr[y4]1fr[y5].5fr[y6];
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 30px;
+    grid-column: x0 / x4;
+    grid-row: y0 / y1 ;
+    text-align: center;
+}
+.content{
+    background-color: blue;
+    color: white;
+    grid-column: x0/x3;
+    grid-row: y1/y5 ;
+
+    display: grid;
+    grid-template-columns: [x0]1fr[x1]1fr[x2]1fr[x3];
+    grid-template-rows: [y0]1fr[y1]1fr[y2]1fr[y3];
+}
+.contenido{
+    border: 1px solid white;
+    margin: 3px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    grid-column: x0/x3;
+    grid-row: y0/y1;
+}
+.text1{
+    border: 1px solid white;
+    margin: 3px;
+    padding: 10px;
+    font-size: 10px;
+    grid-column: x0/x2;
+    grid-row: y1/y3;
+}
+.text2{
+    border: 1px solid white;
+    margin: 3px;
+    font-size: 10px;
+    padding: 10px;
+    grid-column: x2/x3;
+    grid-row: y1/y3;
+}
+
+.menuses{
+    background-color: rgb(86, 206, 122);
+    grid-column: x3/x4;
+    grid-row: y1/y5 ;
+    text-align: center;
+    display: grid;
+    grid-template-columns: [x0]1fr[x1];
+    grid-template-rows: [y0]1fr[y1]1fr[y2]1fr[y3]1fr[y4];
+}
+.menu{
+    border: 1px solid black;
+    font-size: 20px;
+    color: white;
+    padding: 30px;
+    margin:4px 4px 0px 4px;
+    grid-column: x0/x1;
+    grid-row: y0/y1;
+}
+.menu-1{
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    padding: 30px;
+    margin: 4px;
+    grid-column: x0/x1;
+    grid-row: y1/y2;
+}
+.menu-2{
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    padding: 30px;
+    margin: 4px;
+    grid-column: x0/x1;
+    grid-row: y2/y3;
+}
+.menu-3{
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    padding: 30px;
+    margin: 4px;
+    grid-column: x0/x1;
+    grid-row: y3/y4;
+}
+.footer{
+    background-color: rgb(139, 61, 139);
+    color: white;
+    grid-column: x0 / x4;
+    grid-row: y5 / y6 ;
+    text-align: center;
+    display: grid;
+    grid-template-columns: [x0]1fr[x1]1fr[x2];
+    grid-template-rows: [y0]1fr[y1];
+}
+.hijofooter{
+    border: 2px solid black;
+    padding: 15px;
+    margin: 3px;
+    grid-column: x0 / x1;
+    grid-row: y0 / y1 ;
+    text-align: center;
+}
+.hijocontacto{
+    border: 2px solid black;
+    padding: 15px;
+    margin: 3px;
+    grid-column: x1 / x2;
+    grid-row: y0 / y1 ;
+    text-align: center;
+}
+
+

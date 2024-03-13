@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 2fr 1fr 2fr;
+    grid-template-rows:2fr 1fr;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+.a{
+    background-color: greenyellow;
+}
+.b{
+    background-color: black;
+    color: white;
+}
+.c{
+    background-color: greenyellow;;
+}
+
+.d{
+    background-color: black;
+    color: white;
+}
+.e{
+    background-color: greenyellow;;
+}
+.f{
+    background-color: black;
+    color: white;
+}
